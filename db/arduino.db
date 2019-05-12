@@ -1,0 +1,13 @@
+record(ao, led:set) {
+    field(DESC, "Arduino digi pin 11")
+    field(DTYP, "stream")
+    field(OUT, "@arduino.proto set_digital() $(PORT)")
+    field(DRVL, "0")
+    field(DRVH, "255")
+}
+record(ai, photo:get) {
+    field(DESC, "Photo diode's output")
+    field(DTYP, "stream")
+    field(INP, "@arduino.proto get_analog() $(PORT)")
+    field(SCAN, ".5 second")
+}

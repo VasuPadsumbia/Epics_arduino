@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","iochelloWorldIOC")
+epicsEnvSet("TOP","/home/vasu/helloWorldIOC")
+epicsEnvSet("ASYN","/home/vasu/synApps/support/asyn-R4-33")
+epicsEnvSet("STREAM","/home/vasu/synApps/support/stream-R2-7-7c")
+epicsEnvSet("EPICS_BASE","/home/vasu/epics/epics-base")
